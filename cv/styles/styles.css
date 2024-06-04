@@ -1,0 +1,126 @@
+body{
+    font-family: 'Roboto Mono', sans-serif;
+    background-color: #FFF;
+}
+
+.cv-wrapper {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*Left side style*/
+.sidebar {
+    padding: 10px;
+    background-color: rgb(243, 239, 235);
+}
+
+.sidebar-container {
+    padding-left: 10px;
+}
+
+.sidebar-info {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.sidebar-details {
+    text-decoration: none;
+    color: gray;
+}
+
+/*Right side*/
+.right-side {
+    padding-left: 40px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.about-me-info {
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.link {
+    font-weight: 700;
+    font-size: 12px;
+    text-decoration: none;
+    color: gray;
+}
+
+.time {
+    font-size: 10px;
+    color: gray;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.education-profile {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.professional-info {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.professional-list {
+    font-weight: 400;
+    font-size: 12px;
+    color: gray;
+    margin-left: -13px;
+}
+
+.trainig-description {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.training-list {
+    font-weight: 400;
+    font-size: 12px;
+    color: gray;
+    margin-left: -13px;
+}
+
+.projects-description {
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+
+.project-list {
+    font-weight: 400;
+    font-size: 12px;
+    color: gray;
+    margin-left: -13px;
+}
+
+.cv-description {
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.cv-list {
+    font-weight: 400;
+    font-size: 12px;
+    color: gray;
+    margin-left: -13px;
+}
