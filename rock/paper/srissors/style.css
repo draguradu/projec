@@ -1,0 +1,46 @@
+body {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choises {
+    margin: 0 30px;
+}
+
+.choises button {
+    font-size: 7.5rem;
+    background-color: hsl(119, 45%, 25%);
+    min-width: 130px;
+    border: none;
+    border-radius: 250px;
+    margin-bottom: 30px;
+}
+
+.choises button:hover {
+    background-color: hsl(119, 45%, 45%);
+}
+
+#playerDisplay,
+#computerDisplay,
+#playerScoreDisplay,
+#computerScoreDisplay {
+    margin: 5px 0;
+}
+
+#resultDisplay {
+    font-size: 3rem;
+}
+
+.greenText {
+    color: green;
+    font-size: 3rem;
+}
+
+.redText {
+    color: red;
+    font-size: 3rem;
+}
